@@ -2,6 +2,7 @@ import React from 'react'
 import Componente from './components/Componente'
 import Propiedades from './components/Propiedades';
 import Estado from './components/Estado';
+import RenderizadoCondicional from "./components/RenderizadoCondicional"
 import logo from './logo.svg';
 import './App.css';
 
@@ -42,6 +43,9 @@ function App() {
 				/>
 				<hr/>
 				<Estado></Estado>			
+				<hr/>
+				<RenderizadoCondicional></RenderizadoCondicional>
+				<br/><br/><br/><br/><br/>
 				</section>
 			</header>
 		</div>

@@ -21,7 +21,8 @@ export default class Estado extends Component {
 				contador: this.state.contador + 1,
 			});
 		}, 1000);
-	}
+
+	 }
 
 	render() {
 		return (
