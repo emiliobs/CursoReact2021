@@ -3,6 +3,7 @@ import Componente from './components/Componente'
 import Propiedades from './components/Propiedades';
 import Estado from './components/Estado';
 import RenderizadoCondicional from "./components/RenderizadoCondicional"
+import RenderizadoElementos from './components/RenderizadoElementos';
 import logo from './logo.svg';
 import './App.css';
 
@@ -45,6 +46,8 @@ function App() {
 				<Estado></Estado>			
 				<hr/>
 				<RenderizadoCondicional></RenderizadoCondicional>
+				<hr/>
+				<RenderizadoElementos></RenderizadoElementos>
 				<br/><br/><br/><br/><br/>
 				</section>
 			</header>
